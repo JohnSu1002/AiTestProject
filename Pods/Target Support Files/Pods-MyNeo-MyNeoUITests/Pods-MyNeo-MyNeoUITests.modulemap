@@ -1,0 +1,6 @@
+framework module Pods_MyNeo_MyNeoUITests {
+  umbrella header "Pods-MyNeo-MyNeoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

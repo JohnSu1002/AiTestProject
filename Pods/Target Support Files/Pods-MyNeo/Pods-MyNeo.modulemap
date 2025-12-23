@@ -1,0 +1,6 @@
+framework module Pods_MyNeo {
+  umbrella header "Pods-MyNeo-umbrella.h"
+
+  export *
+  module * { export * }
+}

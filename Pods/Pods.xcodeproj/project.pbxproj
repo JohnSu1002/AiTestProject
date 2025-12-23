@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23DB781B18AD63C73327E0E977228454 /* Pods-MyNeo-MyNeoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC543F98948A7AFADFFC52A14C67CF15 /* Pods-MyNeo-MyNeoUITests-dummy.m */; };
+		3FCCF4E841966077BDE9421E086056F1 /* Pods-MyNeo-MyNeoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 769B632AAF35CECB4EE61C0A08825A5E /* Pods-MyNeo-MyNeoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553F32828D19D06EBA9EA2B2BD84AB49 /* Pods-MyNeo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B51D63637D2A03EA47F2B9741035DB /* Pods-MyNeo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C67BCC6117CFFA3E10DCAE5674D8A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7890C7010A94C348283246CD1FCE9489 /* Pods-MyNeoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AF5BED3FBA1EA7C3D73EE85870DC48 /* Pods-MyNeoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DBCE68B7F55151D14AEAD369F7AAC3E /* Pods-MyNeo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9AC3E8746AD427ADB9185CD310BD24 /* Pods-MyNeo-dummy.m */; };
+		951B07124E95DB9B2065F3686291CD1B /* Pods-MyNeoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A2EC48B86DE815613A34269765C293 /* Pods-MyNeoTests-dummy.m */; };
+		D13286325C6C96F7F2AECC159E2E603B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F36BF7AAC824D6AD07F8D9A6935BA646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC69FCE3DCB36937D4CE12804499F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E692521BB20BEFAD879CA4DBE7E12824;
+			remoteInfo = "Pods-MyNeo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B51D63637D2A03EA47F2B9741035DB /* Pods-MyNeo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyNeo-umbrella.h"; sourceTree = "<group>"; };
+		060D4700B61A06DB7F610FC4330732CF /* Pods-MyNeo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyNeo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18551C4B6B06E12972F642DAB4DEAF1D /* Pods-MyNeo-MyNeoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyNeo-MyNeoUITests.modulemap"; sourceTree = "<group>"; };
+		27DF3106DE3EBD2CBBDCD2B824156F02 /* Pods-MyNeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyNeo.debug.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39A2EC48B86DE815613A34269765C293 /* Pods-MyNeoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyNeoTests-dummy.m"; sourceTree = "<group>"; };
+		3B3ADF16E396B3D45370297E01876CEA /* Pods-MyNeoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyNeoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C9AC3E8746AD427ADB9185CD310BD24 /* Pods-MyNeo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyNeo-dummy.m"; sourceTree = "<group>"; };
+		40A6B5D413B0EAD450C73634F1646807 /* Pods-MyNeo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyNeo"; path = Pods_MyNeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E0CD13F3C19C231E4F3C482D3E4ADF /* Pods-MyNeoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyNeoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4534569291E29F5C801AD810E1553030 /* Pods-MyNeoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyNeoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		670D4B9DE4EEA25DF7E6DFA5D72044B9 /* Pods-MyNeoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyNeoTests.modulemap"; sourceTree = "<group>"; };
+		715B42A3F4961C0E5A4257825B4D1D09 /* Pods-MyNeo-MyNeoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyNeo-MyNeoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		769B632AAF35CECB4EE61C0A08825A5E /* Pods-MyNeo-MyNeoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyNeo-MyNeoUITests-umbrella.h"; sourceTree = "<group>"; };
+		806C225E34C96F6D00754F35BC524CA9 /* Pods-MyNeo-MyNeoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyNeo-MyNeoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		870084443D4303C1ED6BBB3A007A238E /* Pods-MyNeo-MyNeoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyNeo-MyNeoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89CC9DCDCB43E466292D0BC241F00865 /* Pods-MyNeo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyNeo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D03AE0CCE3C450F4145479FF0A53366 /* Pods-MyNeo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyNeo.modulemap"; sourceTree = "<group>"; };
+		8DCC2C89ACFB9A074CA810F9239D8ABC /* Pods-MyNeo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyNeo-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9008EC595BB5E276C89DF190DA8463 /* Pods-MyNeo-MyNeoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyNeo-MyNeoUITests-Info.plist"; sourceTree = "<group>"; };
+		C88FAA5FB37F1E8F88EF1E1239844E6D /* Pods-MyNeoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyNeoTests-Info.plist"; sourceTree = "<group>"; };
+		CC543F98948A7AFADFFC52A14C67CF15 /* Pods-MyNeo-MyNeoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyNeo-MyNeoUITests-dummy.m"; sourceTree = "<group>"; };
+		D08BC4A9D3CAECCB6966010902DA8F86 /* Pods-MyNeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyNeo.release.xcconfig"; sourceTree = "<group>"; };
+		E2AF5BED3FBA1EA7C3D73EE85870DC48 /* Pods-MyNeoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyNeoTests-umbrella.h"; sourceTree = "<group>"; };
+		ED10BD7BCC85FDE85DF502525A8F3946 /* Pods-MyNeo-MyNeoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyNeo-MyNeoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED1E0F472F4EC00DA728B99C6A4F0CCE /* Pods-MyNeo-MyNeoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyNeo-MyNeoUITests"; path = Pods_MyNeo_MyNeoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF84A128C729B17CF0689031E33D548D /* Pods-MyNeoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyNeoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3B98BE476A148820877183B0A0DFE05 /* Pods-MyNeoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyNeoTests"; path = Pods_MyNeoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		007B0E7A9D7171115832DB46F46B5629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13286325C6C96F7F2AECC159E2E603B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AFB23BBE2DC2E0EFE037C5B6BBB6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36BF7AAC824D6AD07F8D9A6935BA646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE33632AA3573A53EBCD08B8A4AB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C67BCC6117CFFA3E10DCAE5674D8A55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63EDED59EE34FABFE3095BC761C06722 /* Pods-MyNeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				670D4B9DE4EEA25DF7E6DFA5D72044B9 /* Pods-MyNeoTests.modulemap */,
+				EF84A128C729B17CF0689031E33D548D /* Pods-MyNeoTests-acknowledgements.markdown */,
+				3B3ADF16E396B3D45370297E01876CEA /* Pods-MyNeoTests-acknowledgements.plist */,
+				39A2EC48B86DE815613A34269765C293 /* Pods-MyNeoTests-dummy.m */,
+				C88FAA5FB37F1E8F88EF1E1239844E6D /* Pods-MyNeoTests-Info.plist */,
+				E2AF5BED3FBA1EA7C3D73EE85870DC48 /* Pods-MyNeoTests-umbrella.h */,
+				4534569291E29F5C801AD810E1553030 /* Pods-MyNeoTests.debug.xcconfig */,
+				40E0CD13F3C19C231E4F3C482D3E4ADF /* Pods-MyNeoTests.release.xcconfig */,
+			);
+			name = "Pods-MyNeoTests";
+			path = "Target Support Files/Pods-MyNeoTests";
+			sourceTree = "<group>";
+		};
+		6471911F790060EB0490C9797D21F581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A6B5D413B0EAD450C73634F1646807 /* Pods-MyNeo */,
+				ED1E0F472F4EC00DA728B99C6A4F0CCE /* Pods-MyNeo-MyNeoUITests */,
+				F3B98BE476A148820877183B0A0DFE05 /* Pods-MyNeoTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676A8C06F78041A307A3827F5755DE2A /* Pods-MyNeo-MyNeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18551C4B6B06E12972F642DAB4DEAF1D /* Pods-MyNeo-MyNeoUITests.modulemap */,
+				ED10BD7BCC85FDE85DF502525A8F3946 /* Pods-MyNeo-MyNeoUITests-acknowledgements.markdown */,
+				715B42A3F4961C0E5A4257825B4D1D09 /* Pods-MyNeo-MyNeoUITests-acknowledgements.plist */,
+				CC543F98948A7AFADFFC52A14C67CF15 /* Pods-MyNeo-MyNeoUITests-dummy.m */,
+				9E9008EC595BB5E276C89DF190DA8463 /* Pods-MyNeo-MyNeoUITests-Info.plist */,
+				769B632AAF35CECB4EE61C0A08825A5E /* Pods-MyNeo-MyNeoUITests-umbrella.h */,
+				806C225E34C96F6D00754F35BC524CA9 /* Pods-MyNeo-MyNeoUITests.debug.xcconfig */,
+				870084443D4303C1ED6BBB3A007A238E /* Pods-MyNeo-MyNeoUITests.release.xcconfig */,
+			);
+			name = "Pods-MyNeo-MyNeoUITests";
+			path = "Target Support Files/Pods-MyNeo-MyNeoUITests";
+			sourceTree = "<group>";
+		};
+		990DF8E05745A2132838B3B71916E4EA /* Pods-MyNeo */ = {
+			isa = PBXGroup;
+			children = (
+				8D03AE0CCE3C450F4145479FF0A53366 /* Pods-MyNeo.modulemap */,
+				060D4700B61A06DB7F610FC4330732CF /* Pods-MyNeo-acknowledgements.markdown */,
+				89CC9DCDCB43E466292D0BC241F00865 /* Pods-MyNeo-acknowledgements.plist */,
+				3C9AC3E8746AD427ADB9185CD310BD24 /* Pods-MyNeo-dummy.m */,
+				8DCC2C89ACFB9A074CA810F9239D8ABC /* Pods-MyNeo-Info.plist */,
+				02B51D63637D2A03EA47F2B9741035DB /* Pods-MyNeo-umbrella.h */,
+				27DF3106DE3EBD2CBBDCD2B824156F02 /* Pods-MyNeo.debug.xcconfig */,
+				D08BC4A9D3CAECCB6966010902DA8F86 /* Pods-MyNeo.release.xcconfig */,
+			);
+			name = "Pods-MyNeo";
+			path = "Target Support Files/Pods-MyNeo";
+			sourceTree = "<group>";
+		};
+		BE3BD64388EE654826D07EBEDCD6FDBF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				990DF8E05745A2132838B3B71916E4EA /* Pods-MyNeo */,
+				676A8C06F78041A307A3827F5755DE2A /* Pods-MyNeo-MyNeoUITests */,
+				63EDED59EE34FABFE3095BC761C06722 /* Pods-MyNeoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6471911F790060EB0490C9797D21F581 /* Products */,
+				BE3BD64388EE654826D07EBEDCD6FDBF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01B204E3406EF541FED0A7F93629B0F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7890C7010A94C348283246CD1FCE9489 /* Pods-MyNeoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908089A868B8372E291FB007CDFBA85C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCCF4E841966077BDE9421E086056F1 /* Pods-MyNeo-MyNeoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A588FF05218C3C0A32FEC7CACD95FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553F32828D19D06EBA9EA2B2BD84AB49 /* Pods-MyNeo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		917F4EE57EE374FBF0620DD4DBB6CA67 /* Pods-MyNeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2F9B4EEF942E08FB7F7E889D33254A /* Build configuration list for PBXNativeTarget "Pods-MyNeoTests" */;
+			buildPhases = (
+				01B204E3406EF541FED0A7F93629B0F8 /* Headers */,
+				335C241546052340D6052E7AB6A7F105 /* Sources */,
+				EEEE33632AA3573A53EBCD08B8A4AB53 /* Frameworks */,
+				48297949B2B87852271EA910CE17A114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF90002D5CBC97294AE01BD8C59605C /* PBXTargetDependency */,
+			);
+			name = "Pods-MyNeoTests";
+			productName = Pods_MyNeoTests;
+			productReference = F3B98BE476A148820877183B0A0DFE05 /* Pods-MyNeoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		960D6379303D7A1E9C8C0B2219B27CDA /* Pods-MyNeo-MyNeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E7C7E45A2B0B7B4FC70C2F3E8C81E0 /* Build configuration list for PBXNativeTarget "Pods-MyNeo-MyNeoUITests" */;
+			buildPhases = (
+				908089A868B8372E291FB007CDFBA85C /* Headers */,
+				D9FCF375404B49289D0621CF05D785BC /* Sources */,
+				58AFB23BBE2DC2E0EFE037C5B6BBB6D2 /* Frameworks */,
+				12AEA069C9111A71B0DB1352DBD5ADDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyNeo-MyNeoUITests";
+			productName = Pods_MyNeo_MyNeoUITests;
+			productReference = ED1E0F472F4EC00DA728B99C6A4F0CCE /* Pods-MyNeo-MyNeoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E692521BB20BEFAD879CA4DBE7E12824 /* Pods-MyNeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CD0AB7EF6F29949978E2BFEC5552C7 /* Build configuration list for PBXNativeTarget "Pods-MyNeo" */;
+			buildPhases = (
+				E3A588FF05218C3C0A32FEC7CACD95FA /* Headers */,
+				1AE8C32B404378EB9A48EECFDCDC5446 /* Sources */,
+				007B0E7A9D7171115832DB46F46B5629 /* Frameworks */,
+				BD7DFCBBC5DF940B55C85B0338A538B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MyNeo";
+			productName = Pods_MyNeo;
+			productReference = 40A6B5D413B0EAD450C73634F1646807 /* Pods-MyNeo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6471911F790060EB0490C9797D21F581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E692521BB20BEFAD879CA4DBE7E12824 /* Pods-MyNeo */,
+				960D6379303D7A1E9C8C0B2219B27CDA /* Pods-MyNeo-MyNeoUITests */,
+				917F4EE57EE374FBF0620DD4DBB6CA67 /* Pods-MyNeoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12AEA069C9111A71B0DB1352DBD5ADDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48297949B2B87852271EA910CE17A114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7DFCBBC5DF940B55C85B0338A538B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE8C32B404378EB9A48EECFDCDC5446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBCE68B7F55151D14AEAD369F7AAC3E /* Pods-MyNeo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335C241546052340D6052E7AB6A7F105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951B07124E95DB9B2065F3686291CD1B /* Pods-MyNeoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FCF375404B49289D0621CF05D785BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DB781B18AD63C73327E0E977228454 /* Pods-MyNeo-MyNeoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BF90002D5CBC97294AE01BD8C59605C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyNeo";
+			target = E692521BB20BEFAD879CA4DBE7E12824 /* Pods-MyNeo */;
+			targetProxy = ECC69FCE3DCB36937D4CE12804499F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31807F6655958AD6847B9CE6D1244F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4534569291E29F5C801AD810E1553030 /* Pods-MyNeoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyNeoTests/Pods-MyNeoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyNeoTests/Pods-MyNeoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52FAE4A0084B1B126FFD99714920CCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E0CD13F3C19C231E4F3C482D3E4ADF /* Pods-MyNeoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyNeoTests/Pods-MyNeoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyNeoTests/Pods-MyNeoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5876BC591E4F40CF5CC922202FF9E394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79B2AF20D0CE2C6683C44E7A955FD5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806C225E34C96F6D00754F35BC524CA9 /* Pods-MyNeo-MyNeoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyNeo-MyNeoUITests/Pods-MyNeo-MyNeoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyNeo-MyNeoUITests/Pods-MyNeo-MyNeoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89591097BA55FA981276107D1CB01C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08BC4A9D3CAECCB6966010902DA8F86 /* Pods-MyNeo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyNeo/Pods-MyNeo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyNeo/Pods-MyNeo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD9023C730809C5C7F6BD9F834722061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27DF3106DE3EBD2CBBDCD2B824156F02 /* Pods-MyNeo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyNeo/Pods-MyNeo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyNeo/Pods-MyNeo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D00E4F218292A7B18E4F23A9AF7529F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D79D32CB6E2F9D66E35871C3D61D41DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870084443D4303C1ED6BBB3A007A238E /* Pods-MyNeo-MyNeoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MyNeo-MyNeoUITests/Pods-MyNeo-MyNeoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyNeo-MyNeoUITests/Pods-MyNeo-MyNeoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E7C7E45A2B0B7B4FC70C2F3E8C81E0 /* Build configuration list for PBXNativeTarget "Pods-MyNeo-MyNeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79B2AF20D0CE2C6683C44E7A955FD5F6 /* Debug */,
+				D79D32CB6E2F9D66E35871C3D61D41DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5876BC591E4F40CF5CC922202FF9E394 /* Debug */,
+				D00E4F218292A7B18E4F23A9AF7529F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CD0AB7EF6F29949978E2BFEC5552C7 /* Build configuration list for PBXNativeTarget "Pods-MyNeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9023C730809C5C7F6BD9F834722061 /* Debug */,
+				89591097BA55FA981276107D1CB01C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2F9B4EEF942E08FB7F7E889D33254A /* Build configuration list for PBXNativeTarget "Pods-MyNeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31807F6655958AD6847B9CE6D1244F8D /* Debug */,
+				52FAE4A0084B1B126FFD99714920CCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
