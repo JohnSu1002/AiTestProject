@@ -10,12 +10,12 @@ struct TabBarContainerView: View {
             TabView(selection: $selectedTab) {
                 HomeView()
                     .tag(0)
-                
                 FeatureView()
                     .tag(1)
-                
-                ProfileView()
+                SearchView()
                     .tag(2)
+                ProfileView()
+                    .tag(3)
             }
             
             // 自定义TabBar
@@ -58,7 +58,8 @@ struct TabItem: Identifiable {
 let tabItems = [
     TabItem(title: "首页", icon: "house.fill", tag: 0),
     TabItem(title: "功能", icon: "square.grid.2x2", tag: 1),
-    TabItem(title: "我的", icon: "person.circle.fill", tag: 2)
+    TabItem(title: "搜索", icon: "square.grid.2x2", tag: 2),
+    TabItem(title: "我的", icon: "person.circle.fill", tag: 3)
 ]
 
 // 自定义TabBar按钮
