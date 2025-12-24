@@ -13,6 +13,14 @@ struct HomeView: View {
             VStack {
                 Text("首页页面")
                     .font(.title)
+                Text("首页页面")
+                    .font(.title)
+                Text("首页页面")
+                    .font(.title)
+                Text("首页页面")
+                    .font(.title)
+                Text("首页页面")
+                    .font(.title)
                 // 功能模块内容...
             }
             .navigationTitle("首页")
